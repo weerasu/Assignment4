@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background:url("pexels-felix-mittermeier-956981.jpg");
+    background-size: cover;
+     background-position: center;
+}
+.container_display {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.success {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+td img {
+    max-height: 150px;
+    max-width: 200px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn_del {
+    margin-top: 10px;
+    background-color: #dc3545;
+    transition: background-color 0.3s;
+}
+.btn_del:hover {
+    background-color: #c82333;
+}
